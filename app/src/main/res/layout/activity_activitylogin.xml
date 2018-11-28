@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activitylogin">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/loginfix"
+        android:scaleType="centerCrop"
+        />
+
+    <EditText
+        android:id="@+id/editUser"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="176dp"
+        android:hint="enter_username"
+        />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="68dp"
+        android:layout_marginBottom="120dp"
+        android:inputType="textPassword"
+        android:hint="enter password"
+        />
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/editpass"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="17dp"
+        android:background="@android:color/transparent"
+
+        />
+</RelativeLayout>
