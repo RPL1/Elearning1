@@ -11,6 +11,7 @@
         android:layout_height="fill_parent"
         android:src="@drawable/loginfix"
         android:scaleType="centerCrop"
+
         />
 
     <EditText
@@ -36,12 +37,15 @@
         android:inputType="textPassword"
         android:hint="enter password"
         />
+
+
     <Button
-        android:layout_width="115dp"
-        android:layout_height="30dp"
-        android:layout_below="@id/editpass"
-        android:layout_marginLeft="135dp"
-        android:layout_marginTop="17dp"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="74dp"
+        android:onClick="loginmasuk"
         android:background="@android:color/transparent"
 
         />
