@@ -102,7 +102,8 @@ public class Mainmenu extends AppCompatActivity
             callFragment(fragment);
 
         } else if (id == R.id.nav_ai) {
-
+            fragment = new makul_ai();
+            callFragment(fragment);
         } else if (id == R.id.nav_sim) {
 
         } else if (id == R.id.nav_pengumuman) {

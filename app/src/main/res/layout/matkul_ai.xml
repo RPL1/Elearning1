@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/satu"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/dosen"
+
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/forum"
+            android:layout_marginTop="5dp"
+
+            />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            android:text="@string/materi"
+
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="4dp"
+            android:text="@string/pengumuman"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/daftar_peserta_kelas"
+            />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:hint="@string/isi_status"
+            android:background="@android:color/background_light"
+            android:layout_marginTop="4dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_file"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rahmat_hidayat_s_kom_m_cs"
+        android:textSize="18sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/namadosen" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dosen_s1_teknik_informatika"
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="15sp"
+        />
+
+</RelativeLayout>
