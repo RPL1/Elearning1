@@ -1,5 +1,7 @@
 package com.example.sitiy.myapplication;
 
+import android.app.Fragment;
+import android.app.FragmentManager;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,6 +18,11 @@ import android.view.MenuItem;
 public class Mainmenu extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    Toolbar toolbar;
+    DrawerLayout drawer;
+    NavigationView navigationView;
+    FragmentManager fragmentManager;
+    Fragment fragment = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +47,10 @@ public class Mainmenu extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        if (savedInstanceState == null) {
+            fragment = new Root();
+            callFragment(fragment);
+        }
     }
 
     @Override
@@ -83,6 +94,8 @@ public class Mainmenu extends AppCompatActivity
         if (id == R.id.beranda) {
             // Handle the camera action
         } else if (id == R.id.dpa) {
+            fragment = new makul_rpl();
+            callFragment(fragment);
 
         } else if (id == R.id.matkul) {
 
@@ -97,5 +110,12 @@ public class Mainmenu extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    private void callFragment(Fragment fragment) {
+        fragmentManager = getFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.frame_container, fragment)
+                .commit();
     }
 }
