@@ -22,13 +22,13 @@
             android:layout_height="wrap_content"
             android:textSize="16dp"
             android:textStyle="bold"
-            android:text="Dedy Kuncoro"/>
+            android:text="SUKA LEARNING"/>
 
         <TextView
             android:layout_gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="www.dedykuncoro.com"/>
+            android:text="@string/kelompok_1"/>
 
     </LinearLayout>
 

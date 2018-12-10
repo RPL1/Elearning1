@@ -17,6 +17,8 @@
     <string name="m_taufiq_nuruzzaman_s_si_m_t">M. Taufiq Nuruzzaman, S.Si., M.T</string>
     <string name="dosen_s1_teknik_informatika">Dosen- S1 Teknik Informatika</string>
     <string name="rahmat_hidayat_s_kom_m_cs">Rahmat Hidayat, S.Kom, M.Cs</string>
+    <string name="agus_mulyanto_s_si_m_kom">Agus Mulyanto, S.Si., M.Kom</string>
+    <string name="kelompok_1">KELOMPOK 1</string>
 
     <string-array name="tahunajaran">
         <item>Tahun Ajaran 2018/2019 (Gasal)</item>
