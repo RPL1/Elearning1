@@ -93,17 +93,19 @@ public class Mainmenu extends AppCompatActivity
 
         if (id == R.id.beranda) {
             // Handle the camera action
-        } else if (id == R.id.dpa) {
+        } else if (id == R.id.nav_rpl) {
             fragment = new makul_rpl();
             callFragment(fragment);
 
-        } else if (id == R.id.matkul) {
+        } else if (id == R.id.nav_pbo) {
 
-        } else if (id == R.id.filesaya) {
+        } else if (id == R.id.nav_ai) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_sim) {
 
-        } else if (id == R.id.pengumuman) {
+        } else if (id == R.id.nav_pengumuman) {
+
+        } else if (id == R.id.nav_filesaya) {
 
         }
 

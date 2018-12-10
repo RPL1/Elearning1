@@ -17,7 +17,7 @@ public class makul_rpl extends Fragment {
 
         view = (RelativeLayout) inflater.inflate(R.layout.makul_rpl, container, false);
 
-        getActivity().setTitle("Gallery");
+        getActivity().setTitle("Rekayasa Perangkat Lunak");
 
         return view;
     }

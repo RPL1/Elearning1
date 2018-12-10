@@ -8,6 +8,14 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="tahun_ajaran">Tahun Ajaran</string>
+    <string name="materi">Materi</string>
+    <string name="forum">Forum</string>
+    <string name="pengumuman">Pengumuman</string>
+    <string name="daftar_peserta_kelas">Daftar Peserta Kelas</string>
+    <string name="isi_status">Isi Status</string>
+    <string name="upload_file">Upload File</string>
+    <string name="m_taufiq_nuruzzaman_s_si_m_t">M. Taufiq Nuruzzaman, S.Si., M.T</string>
+    <string name="dosen_s1_teknik_informatika">Dosen- S1 Teknik Informatika</string>
 
     <string-array name="tahunajaran">
         <item>Tahun Ajaran 2018/2019 (Gasal)</item>

@@ -13,22 +13,31 @@
             android:icon="@drawable/ic_menu_send"
             android:title="Pembimbing Akademik" />
         <item
-            android:id="@+id/matkul"
+            android:id="@+id/nav_rpl"
             android:icon="@drawable/ic_menu_send"
-            android:title="Matakuliah" />
+            android:title="Rekayasa Perangkat Lunak" />
         <item
-            android:id="@+id/filesaya"
+            android:id="@+id/nav_pbo"
             android:icon="@drawable/ic_menu_send"
-            android:title="Filesaya" />
+            android:title="Pemrograman Berorientasi Object" />
         <item
-            android:id="@+id/pengumuman"
+            android:id="@+id/nav_ai"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Kecerdasan Buatan" />
+        <item
+            android:id="@+id/nav_sim"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Sistem Informasi Manajemen" />
+        <item
+            android:id="@+id/nav_pengumuman"
             android:icon="@drawable/ic_menu_send"
             android:title="Pengumuman" />
-
         <item
-            android:id="@+id/nav_share"
-            android:icon="@drawable/ic_menu_share"
-            android:title="Share" />
+            android:id="@+id/nav_filesaya"
+            android:icon="@drawable/ic_menu_send"
+            android:title="File Saya" />
+
+
     </group>
 
 </menu>
