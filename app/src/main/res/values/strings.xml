@@ -19,6 +19,19 @@
     <string name="rahmat_hidayat_s_kom_m_cs">Rahmat Hidayat, S.Kom, M.Cs</string>
     <string name="agus_mulyanto_s_si_m_kom">Agus Mulyanto, S.Si., M.Kom</string>
     <string name="kelompok_1">KELOMPOK 1</string>
+    <string name="suka_learning">SUKA LEARNING</string>
+    <string name="siti_maryam">Siti Maryam</string>
+    <string name="fakultas">Fakultas</string>
+    <string name="sains_dan_teknologi">Sains dan Teknologi</string>
+    <string name="program_studi">Program Studi</string>
+    <string name="s1_teknik_informatika">S1 - Teknik Informatika</string>
+    <string name="terakhir_login">Terakhir Login</string>
+    <string name="total_login">Total Login</string>
+    <string name="xxxxxxxx">xxxxxxxx</string>
+    <string name="aktivitas_semester_gasal_tahun_akademik_2018_2019">Aktivitas Semester Gasal Tahun Akademik 2018/2019</string>
+    <string name="belum_ada_update_aktivitas">Belum Ada Update Aktivitas</string>
+    <string name="materi_dari_mahasiswa"><![CDATA[>> Materi Dari Mahasiswa]]></string>
+    <string name="lihat_selengkapnya">Lihat Selengkapnya</string>
 
     <string-array name="tahunajaran">
         <item>Tahun Ajaran 2018/2019 (Gasal)</item>
