@@ -1,16 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
     <ImageView
-        android:layout_width="385dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/satu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/tiga"
         android:scaleType="centerCrop"
         />
 
-</android.support.constraint.ConstraintLayout>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="105dp"
+        android:src="@drawable/user"
+        android:layout_marginTop="10dp"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/fakultas"
+        android:textStyle="italic"
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/program_studi"
+        android:textStyle="italic"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/terakhir_login"
+        android:textStyle="italic"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/total_login"
+        android:textStyle="italic"
+        />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="120dp"
+        android:text="@string/siti_maryam"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sains_dan_teknologi"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/s1_teknik_informatika"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xxxxxxxx"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="230dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xxxxxxxx"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="230dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aktivitas_semester_gasal_tahun_akademik_2018_2019"
+            android:background="@android:color/background_light"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/belum_ada_update_aktivitas"
+            android:layout_marginTop="6dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:text=">> Materi Dari Dosen"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/lihat_selengkapnya"
+            android:layout_marginLeft="40dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="match_parent"
+            android:text="@string/materi_dari_mahasiswa"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/lihat_selengkapnya"
+            android:layout_marginLeft="40dp"
+
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

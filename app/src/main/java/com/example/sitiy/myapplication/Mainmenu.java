@@ -92,7 +92,9 @@ public class Mainmenu extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.beranda) {
-            // Handle the camera action
+            fragment = new Root();
+            callFragment(fragment);
+
         } else if (id == R.id.nav_rpl) {
             fragment = new makul_rpl();
             callFragment(fragment);

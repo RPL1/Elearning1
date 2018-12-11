@@ -6,27 +6,27 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/beranda"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/beranda"
             android:title="Beranda" />
         <item
             android:id="@+id/dpa"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/dosen"
             android:title="Pembimbing Akademik" />
         <item
             android:id="@+id/nav_rpl"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/iconmatkul"
             android:title="Rekayasa Perangkat Lunak" />
         <item
             android:id="@+id/nav_pbo"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/iconmatkul"
             android:title="Pemrograman Berorientasi Object" />
         <item
             android:id="@+id/nav_ai"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/iconmatkul"
             android:title="Kecerdasan Buatan" />
         <item
             android:id="@+id/nav_sim"
-            android:icon="@drawable/ic_menu_send"
+            android:icon="@drawable/iconmatkul"
             android:title="Sistem Informasi Manajemen" />
         <item
             android:id="@+id/nav_pengumuman"

@@ -16,7 +16,7 @@ public class Root extends Fragment {
 
         rootView = inflater.inflate(R.layout.root, container, false);
 
-        getActivity().setTitle("Kuncoro Nav Drawer");
+        getActivity().setTitle("Suka Learning");
 
         return rootView;
     }

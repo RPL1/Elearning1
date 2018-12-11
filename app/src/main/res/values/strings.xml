@@ -32,6 +32,11 @@
     <string name="belum_ada_update_aktivitas">Belum Ada Update Aktivitas</string>
     <string name="materi_dari_mahasiswa"><![CDATA[>> Materi Dari Mahasiswa]]></string>
     <string name="lihat_selengkapnya">Lihat Selengkapnya</string>
+    <string name="nim">NIM</string>
+    <string name="no">No</string>
+    <string name="Nama">Nama</string>
+    <string name="_16650013">16650013</string>
+    <string name="_1">1</string>
 
     <string-array name="tahunajaran">
         <item>Tahun Ajaran 2018/2019 (Gasal)</item>
