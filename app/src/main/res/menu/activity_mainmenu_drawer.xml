@@ -32,10 +32,11 @@
             android:id="@+id/nav_pengumuman"
             android:icon="@drawable/ic_menu_send"
             android:title="Pengumuman" />
+
         <item
-            android:id="@+id/nav_filesaya"
+            android:id="@+id/nav_logout"
             android:icon="@drawable/ic_menu_send"
-            android:title="File Saya" />
+            android:title="Logout" />
 
 
     </group>

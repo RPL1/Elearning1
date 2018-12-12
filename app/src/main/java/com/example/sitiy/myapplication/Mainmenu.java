@@ -2,6 +2,7 @@ package com.example.sitiy.myapplication;
 
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -112,7 +113,10 @@ public class Mainmenu extends AppCompatActivity
 
         } else if (id == R.id.nav_pengumuman) {
 
-        } else if (id == R.id.nav_filesaya) {
+        } else if (id == R.id.nav_logout) {
+            Intent intent = new Intent(getApplicationContext(), activitylogin.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
         }
 
@@ -127,4 +131,5 @@ public class Mainmenu extends AppCompatActivity
                 .replace(R.id.frame_container, fragment)
                 .commit();
     }
+
 }
